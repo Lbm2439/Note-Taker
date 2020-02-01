@@ -10,18 +10,17 @@ const notes = {
     return rawData("db/db.json", "utf8");
   },
   getNotes() {
-      console.log("Hi");
-    // return this.read().then(gottenNotes => {
-    //   let parsedNotes;
+    return this.read().then(gottenNotes => {
+      let parsedNotes;
 
-    //   try {
-    //     parsedNotes = [].concat(JSON.parse(gottenNotes));
-    //   } catch (err) {
-    //     parsedNotes = [];
-    //   }
+      try {
+        parsedNotes = [].concat(JSON.parse(gottenNotes));
+      } catch (err) {
+        parsedNotes = [];
+      }
 
-    //   return parsedNotes;
-    // });
+      return parsedNotes;
+    });
   }
 };
 
