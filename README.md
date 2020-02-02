@@ -6,6 +6,8 @@
  When creating this applicaton, I utalized NPM packages such as, FS, Express, and Util. 
 
 
-[Link to published site](https://github.com/Lbm2439/Note-Taker.git)
-[Link to Git Hub](https://lbm2439.github.io/Note-Taker/)
+[Link to published github repository](https://github.com/Lbm2439/Note-Taker.git)
+[Link to published site](https://lbm2439.github.io/Note-Taker/)
+
+02/1/2020
 
